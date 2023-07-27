@@ -53,5 +53,5 @@ int main()
 3               1       2       3
 5               5       2       3
 6               5       6       3
-Page Fault Is 5[1] + Done
-*\
+Page Fault Is 5[1] + Done*/
+
