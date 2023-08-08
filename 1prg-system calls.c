@@ -1,4 +1,4 @@
-#include<stdio.>
+#include<stdio.h>
 #include<unistd.h>
 #include<sys/wait.h>
 
@@ -6,10 +6,10 @@ int main()
 {
 pid_t pid;
 int status;
-pid=fork()
+pid=fork();
 
 if(pid<0){
-printf("error:fork()failed.\n);
+printf("error:fork()failed.\n");
 return 1;
 }else if(pid==0)
 {
